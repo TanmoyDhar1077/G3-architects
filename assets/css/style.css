@@ -1,12 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     background: #ffff;
 }
 
+
+/* Shared Class */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600; 
+    background-color: rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none; 
+}
+
 .img-fluid {
-    mix-blend-mode: luminosity;
-    
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-1 {
+    color: rgba(19, 19, 19, 1);
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
+.dark-3 {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+/* Header Section */
+.header-section {
+    background: rgba(255, 144, 14, 0.10);
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+
+.header-section .nav-bar{
+    padding-bottom: 7.5rem;
+}
+
+.header-section .nav-bar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-section .nav-link-header {
+    color: #131313;
+    font-size: 2.813rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header-section .nav-item {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.header-section .nav-link {
+    color: #424242;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Banner */
+.header-section .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header-section .banner-title {
+    text-align: center;
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.header-section .banner-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
 }
