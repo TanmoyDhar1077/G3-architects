@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+    .header-section .nav-bar, .nav-links {
+        flex-direction: column;
+    }
+
+    .header-section .nav-bar{
+        padding-bottom: 5.5rem;
+    }
+
+    .header-section .nav-item {
+        margin: 10px 0;
+    }
+
+    /* Features Section */
+
+    .features-section .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .features-section .features-content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

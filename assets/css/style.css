@@ -19,11 +19,11 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 1.25rem;
-    font-weight: 600; 
+    font-weight: 600;
     background-color: rgba(255, 144, 14, 1);
     border-radius: 8px;
     padding: 20px 25px;
-    border: none; 
+    border: none;
 }
 
 .img-fluid {
@@ -56,11 +56,12 @@ body {
     padding-bottom: 45px;
 }
 
-.header-section .nav-bar{
+.header-section .nav-bar {
     padding-bottom: 7.5rem;
 }
 
-.header-section .nav-bar, .banner {
+.header-section .nav-bar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -108,4 +109,34 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.625rem;
+}
+
+/* Features Section */
+.features-section {
+    padding-top: 85px;
+}
+
+.features-section .features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-section .features-content {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    max-width: 537px;
+}
+
+.features-section .features-content .style-1 {
+    color: #727272;
+    font-size: 2.813rem;
+    font-weight: 500;
+}
+
+.features-section .features-content .style-2 {
+    color: #FF900E;
+    font-size: 2.813rem;
+    font-weight: 700;
 }
