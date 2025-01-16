@@ -1,4 +1,5 @@
 @media screen and (max-width: 576px) {
+    /* Header Section */
     .header-section .nav-bar, .nav-links {
         flex-direction: column;
     }
@@ -11,8 +12,32 @@
         margin: 10px 0;
     }
 
+    .header-section .banner-description {
+        width: 100%;
+    }
+
     /* Features Section */
 
+    .features-section .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .features-section .features-content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+    
+    /* Header Section */
+    .header-section .banner-description {
+        width: 100%;
+    }
+
+    /* Features Section */
     .features-section .container {
         flex-direction: column;
         gap: 40px;
