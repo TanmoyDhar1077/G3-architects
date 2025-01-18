@@ -42,6 +42,17 @@
     .some-facts-section .dark-1, .dark-3 {
         text-align: center;
     }
+
+    /* Sponsor Section */
+    .sponsors-section .sponsors-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    /* Footer Section */
+    .footer-section {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1024px) {
@@ -77,4 +88,15 @@
     .some-facts-section .dark-1, .dark-3 {
         text-align: center;
     }   
+
+    /* Sponsor Section */
+    .sponsors-section .sponsors-container {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    /* Footer Section */
+    .footer-section {
+        width: 100%;
+    }
 }
