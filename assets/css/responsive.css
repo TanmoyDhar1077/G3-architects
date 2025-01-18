@@ -23,6 +23,10 @@
         gap: 40px;
     }
 
+    .features-section .features-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .features-section .features-content{
         justify-content: center;
         align-items: center;
