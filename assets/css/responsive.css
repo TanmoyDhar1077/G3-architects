@@ -32,6 +32,16 @@
         align-items: center;
         text-align: center;
     }
+    /* Some Facts Section */
+
+    .some-facts-section .facts-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .some-facts-section .dark-1, .dark-3 {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1024px) {
@@ -52,4 +62,19 @@
         align-items: center;
         text-align: center;
     }
+
+    /* Some Facts Section */
+
+    .some-facts-section .d-flex {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .some-facts-section p {
+        max-width: 100%;
+    }
+
+    .some-facts-section .dark-1, .dark-3 {
+        text-align: center;
+    }   
 }
