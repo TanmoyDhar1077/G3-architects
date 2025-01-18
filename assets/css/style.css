@@ -193,8 +193,7 @@ body {
     padding: 130px 0px;
 }
 
-.sponsors-section .dark-3,
-.dark-1 {
+.sponsors-section .dark-1 {
     text-align: center;
 }
 
@@ -204,6 +203,7 @@ body {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .sponsors-section .sponsors-container {
