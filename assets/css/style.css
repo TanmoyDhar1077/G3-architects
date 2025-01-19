@@ -207,9 +207,9 @@ body {
 }
 
 .sponsors-section .sponsors-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .sponsors-section .sponsors-container img {

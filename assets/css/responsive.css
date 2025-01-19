@@ -45,8 +45,8 @@
 
     /* Sponsor Section */
     .sponsors-section .sponsors-container {
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
+        flex-direction: column;
+        gap: 30px;
     }
 
     /* Footer Section */
@@ -91,8 +91,8 @@
 
     /* Sponsor Section */
     .sponsors-section .sponsors-container {
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
     /* Footer Section */
